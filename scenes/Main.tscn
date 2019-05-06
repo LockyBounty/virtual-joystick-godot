@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Game.tscn" type="PackedScene" id=1]
+
+[node name="Main" type="Node"]
+
+[node name="GrandParent" type="Node" parent="."]
+
+[node name="Game" parent="GrandParent" instance=ExtResource( 1 )]
+

@@ -19,7 +19,7 @@ func _input(event):
 				evt_index = -1
 				$Joystick.position = Vector2()
 				$"../".stick_vector = Vector2()
-				$"../".stick_angle = 0
+				
 				$"../".stick_speed = 0
 				
 	if evt_index != -1 and event is InputEventScreenDrag:
