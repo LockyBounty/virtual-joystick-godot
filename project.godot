@@ -19,14 +19,18 @@ config/name="virtual-joystick-godot"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[debug]
+
+gdscript/warnings/unused_variable=false
+
 [display]
 
 window/size/width=1280
 window/size/height=720
+window/size/fullscreen=true
 window/vsync/use_vsync=false
-window/handheld/orientation="sensor_landscape"
 window/stretch/mode="2d"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
 
 [input_devices]
 
@@ -42,7 +46,9 @@ quality/driver/driver_name="GLES2"
 quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 vram_compression/import_etc=true
-vram_compression/import_etc2=false
 quality/shadows/filter_mode=0
+quality/depth_prepass/enable=false
 environment/default_clear_color=Color( 0, 0, 0, 1 )
+quality/depth/hdr=false
 environment/default_environment="res://default_env.tres"
+quality/dynamic_fonts/use_oversampling=false

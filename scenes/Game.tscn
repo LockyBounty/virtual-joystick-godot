@@ -16,7 +16,7 @@ stretch_mode = 1
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 light_mask = 0
-position = Vector2( 323.172, 359.381 )
+position = Vector2( 372.282, 327.072 )
 gravity_point = true
 collision_mask = 0
 
